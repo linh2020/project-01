@@ -85,3 +85,41 @@ a {
   padding: 13px 16px;
   margin-left: 18px;
 }
+
+.hero {
+  margin-top: 130px;
+}
+
+.hero .info {
+  width: 50.3%;
+}
+
+.hero .sub-title {
+  color: #687690;
+  font-size: 1.8rem;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.018rem;
+}
+.hero .title {
+  margin-top: 8px;
+  color: #000336;
+  font-size: 6.4rem;
+  font-weight: 700;
+  line-height: 1.19; /* 118.75% */
+}
+
+.hero .desc {
+  margin-top: 30px;
+  color: #5a6473;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 1.78; /* 177.778% */
+}
+
+.hero-cta {
+  margin-top: 40px;
+  min-width: 170px;
+}
+
+
