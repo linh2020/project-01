@@ -281,53 +281,63 @@ a {
 
 .featured .list {
   display: flex;
-  justify-content: center;
   gap: 30px;
   margin-top: 70px;
 }
 
-.featured .list .item {
+.featured .item {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 12px;
 }
 
-.featured .list .item .thumb {
-  width: 350px;
+.featured .item .thumb {
+  width: 100%;
   height: 227px;
-  flex-shrink: 0;
+  object-fit: cover;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
 }
 
-.featured .list .body {
-  margin: 17px 24px 20px;
+.featured .item .body {
+  margin: 17px 20px 24px;
 }
 
-.featured .list .title {
-  color: #000339;
-  /* text-align: center; */
-  font-size: 2rem;
+.featured .item .title {
   font-weight: 600;
-  line-height: 2; /* 100% */
+  font-size: 2rem;
+  color: #000339;
+  line-height: 1;
 }
 
-.featured .list .desc {
+.featured .item .desc {
+  margin-top: 11px;
   color: #a3a6ab;
-  /* text-align: center; */
   font-size: 1.4rem;
   font-weight: 500;
   line-height: normal;
-  margin-top: 11px;
 }
 
-.featured .list .info {
+.featured .item .info {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  margin-top: 22px;
+  margin-top: 21px;
 }
 
-.featured .list .info .label {
+.featured .item .icon {
+  margin-left: 23px;
+}
+
+.featured .item .icon:first-child {
+  margin-left: 0;
+}
+
+.featured .item .label {
+  margin-left: 8px;
   color: #4d4d52;
-  /* text-align: center; */
   font-size: 1.4rem;
   font-weight: 500;
-  line-height: 1.4; /* 100% */
   letter-spacing: 0.14px;
 }
 
