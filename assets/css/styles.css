@@ -514,3 +514,51 @@ main {
   font-size: 1.8rem;
   font-weight: 500;
 }
+
+.subscription {
+  margin-top: 90px;
+}
+
+.subscription .body {
+  display: flex;
+  position: relative;
+  align-items: center;
+  width: 1110px;
+  height: 370px;
+  border-radius: 20px;
+  background: #063183;
+}
+
+.subscription .info {
+  padding: 0 80px;
+  width: 671px;
+}
+
+.subscription .sub-title {
+  color: #fff;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.5;
+}
+
+.subscription .desc {
+  margin-top: 15px;
+  color: #fff;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.88;
+  opacity: 0.75;
+}
+
+.subscription .btn {
+  min-width: 151px;
+  margin-top: 20px;
+  background: #fff;
+  color: #002366;
+}
+
+.subscription .image {
+  position: absolute;
+  bottom: 0;
+  right: 221px;
+}
