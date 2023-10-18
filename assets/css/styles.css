@@ -360,3 +360,65 @@ a {
 main {
   height: 11000px;
 }
+
+/* stats */
+.stats {
+  margin-top: 75px;
+  padding: 50px 0 50px;
+  /* background-color: orange; */
+}
+
+.stats .content {
+  width: 1017px;
+}
+
+.stats .row {
+  display: flex;
+}
+
+.stats .img-block,
+.stats .info {
+  width: 50%;
+}
+.stats .info {
+  padding: 79px 0 0 165px;
+}
+
+.stats .sub-title {
+  position: relative;
+  color: #000339;
+  font-size: 3.5rem;
+  font-weight: 600;
+  line-height: 1.29; /* 128.571% */
+  width: 269px;
+}
+
+.stats .sub-title::before {
+  position: absolute;
+  content: "";
+  display: block;
+  width: 41px;
+  height: 4px;
+  border-radius: 12px;
+  background: #000339;
+  margin-top: -10px;
+  left: 0;
+}
+
+.stats .desc {
+  margin-top: 20px;
+  color: #5a6473;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.89; /* 187.5% */
+  width: 309px;
+}
+
+.stats .img-block img {
+  width: 400px;
+  height: 460px;
+  object-fit: cover;
+  border-radius: 12px;
+  display: block;
+  margin-left: auto;
+}
