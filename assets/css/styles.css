@@ -378,6 +378,7 @@ main {
 
 .stats .img-block,
 .stats .info {
+  position: relative;
   width: 50%;
 }
 .stats .info {
@@ -405,7 +406,7 @@ main {
   left: 0;
 }
 
-.stats .desc {
+.stats .info .desc {
   margin-top: 20px;
   color: #5a6473;
   font-size: 1.6rem;
@@ -414,11 +415,52 @@ main {
   width: 309px;
 }
 
-.stats .img-block img {
+.stats .img-block .image {
   width: 400px;
   height: 460px;
   object-fit: cover;
   border-radius: 12px;
   display: block;
   margin-left: auto;
+}
+
+/* Trend */
+.stats .stats-trend {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 239px;
+  padding: 45px 22px 40px;
+  border-radius: 0px 0px 12px 12px;
+  background: #fff;
+}
+
+.stats .stats-trend .value {
+  color: #000339;
+  font-size: 2.6rem;
+  font-weight: 700;
+  letter-spacing: 0.26px;
+  color: #000339;
+}
+
+.stats .stats-trend .row .icon {
+  margin-left: auto;
+}
+
+.stats .stats-trend .row {
+  display: flex;
+}
+
+.stats .stats-trend .desc {
+  margin-top: 8px;
+  color: #a7a7a7;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+.stats .stats-trend .separate {
+  margin-top: 25px;
+  height: 1.2px;
+  background: #e9e9e9;
 }
