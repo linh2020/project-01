@@ -611,7 +611,6 @@ a {
 .footer .social {
   display: flex;
   margin-top: 40px;
-  width: 100px;
   justify-content: space-between;
 }
 
@@ -622,6 +621,10 @@ a {
   width: 28px;
   height: 28px;
   border-radius: 3px;
+}
+
+.footer .social-link + .social-link {
+  margin-left: 16px;
 }
 
 .footer .social-link:hover {
