@@ -50,8 +50,18 @@ a {
   overflow: hidden;
 }
 
+.fixed-header {
+  background-color: #e6f0ff;
+  padding-top: 26px;
+  position: sticky;
+  top: -26px;
+  z-index: 1;
+}
+
 /* Header */
-.header {
+.hero-wrap {
+  display: flex;
+  flex-direction: column;
   background-color: #e6f0ff;
   height: 100vh;
   position: relative;
@@ -60,7 +70,7 @@ a {
 .navbar {
   display: flex;
   align-items: center;
-  padding-top: 38px;
+  padding: 12px 0;
 }
 
 .navbar ul {
